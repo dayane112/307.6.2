@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <!-- link Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Stylesheet link -->
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <ul class="nav flex-column nav-pills">
+        <li class="nav-item">
+          <a class="nav-link text-secondary" href="#">Dashboard</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active p-3 mb-2 bg-warning text-dark" aria-current="page" href="#" id="color">Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-secondary " href="#">Workflow</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-secondary" href="#">Chat</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-secondary" href="#">Direct report</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="pic" href="#"><img src="./images/logo.png" alt="Logo" width = "100px" height = "auto"></a>
+          </li>
+     </ul>
+
+     <!-- edit button -->
+     <div class="btn-group d-flex align-items-end flex-column mb-3" style="height: 50px;" role="group" aria-label="Basic example">
+        <button type="button" class="btn p-3 mb-2 bg-warning text-dark" id="button">Edit Profile</button>
+      </div>
+
+      <!-- image section -->
+    <div id="section1" class="box1">
+        <div id="halfBox1">
+        <img src="./images/IMG_0357.png" alt="Profile Picture" width = "auto" height = "200">
+        </div>
+        <div id="halfBox2">
+            <table id="table1">
+                <tbody>
+                    <tr>
+                        <td><H1>Diane Lugo</H1></td>
+                    </tr>
+                    <tr>
+                        <td><H5>Developer</H5></t>
+                    </tr>
+                    <tr>
+                        <td><H5>email@email.com</H5></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Profile info -->
+    <div class="d-flex flex-row mb-3">           
+        <div class="p-2">
+            <table class="box2 table2" id="secondBox">
+                <tbody>
+                    <tr>
+                        <td>Name:</td>
+                        <td class="column2">Diane Lugo</td>
+                    </tr>
+                    <tr>
+                        <td>Username:</td>
+                        <td class="column2">Lugdi01</td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td class="column2">email@email.com</td>
+                    </tr>
+                    <tr>
+                        <td>Number:</td>
+                        <td class="column2">(347)867-5309</td>
+                    </tr>
+                    <tr>
+                        <td>Supervisor:</td>
+                        <td class="column2">Dylan Comeau</td>
+                    </tr>
+                    <tr>
+                        <td>Start Date:</td>
+                        <td class="column2">August 2024</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Password reset window -->
+        <div class="p-2" id="lastBox">
+            <fieldset class="box3">
+                <h2 id="align">Password Reset</h2>
+                <br>
+                    <label>
+                        Current Password
+                    <input required placeholder="Enter Password" />
+                    </label>
+                <br>
+                    <label>
+                        New Password
+                        <input required placeholder="Enter Password" />
+                    </label>
+                <br>
+                <label>
+                    Confirm Password
+                    <input required placeholder="Enter Password" />
+                </label>
+            </fieldset>
+        </div>
+    </div>
+
+    <!-- Progress bar -->
+     <div class="bar">
+        <h2 id="align">Goals</h2>
+        <br>
+        Budget
+        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-warning" style="width: 50%"></div>
+        </div>
+        <br>
+        Project Completed
+        <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-warning" style="width: 75%"></div>
+        </div>
+    </div>
+</body>
+</html>

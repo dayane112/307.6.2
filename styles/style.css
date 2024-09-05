@@ -1,0 +1,105 @@
+.nav {
+    /* display: flex; */
+    background-color: #fff2ccff;
+    width: 150px;
+    text-align: center;
+    height: 100vh; 
+    float: left;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+}
+
+#pic {
+    align-self: flex-end;
+}
+
+/* Edit Profile */
+#button{
+    /* height: 30px; */
+    /* margin-left: 75vh; */
+    margin-top: 20px;
+    text-align:
+}
+
+/* Profile pic and Name and Title*/
+.box1 {
+    display: flex;
+    display: inline-block;
+    border: .1px solid;
+    width: 75%;
+    height: 250px;
+    padding: 20px 20px 0px 20px;
+    margin: 20px 0px 0px 50px;
+    background-color: #fff2ccff;
+}
+
+/* Profile picture */
+#halfBox1 {
+    float: left;
+    display: inline-block;
+    
+}
+
+/* Name and Title */
+#halfBox2 {
+    display: inline-block;
+    padding: 40px 130px 0px 40px;
+}
+
+/* Name and Title Table*/
+#table1 {
+    display: table-row;
+    /* padding: 100px 130px 0px 40px; */
+}
+
+#secondBox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* User information box */
+.table2 {
+    /* display: inline-block; */
+
+    border: .1px solid;
+    width: 100%;
+    margin: 20px 0px 0px 50px;
+    padding: 30px 20px 20px 30px;
+    background-color: #fff2ccff;
+}
+
+
+.column2 {
+    text-align: left;
+    padding: 0px 0px 0px 50px;
+}
+
+#lastBox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box3 {
+    width: max-content;
+    border: .1px solid;
+    margin: 20px 0px 0px 50px;
+    padding: 0px 20px 20px 30px;
+    background-color: #fff2ccff;
+}
+
+.bar {
+    display: flex;
+    display: inline-block;
+    border: .1px solid;
+    width: 75%;
+    height: 250px;
+    padding: 20px 20px 0px 20px;
+    margin: 20px 0px 0px 50px;
+    background-color: #fff2ccff;
+}
+
+#align {
+    text-align: center;
+}
